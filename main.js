@@ -21,6 +21,3 @@ function StartGame(){
 	//crea un istanza di Game
 	game = new Game();
 }
-window.addEventListener('load', function() {
-  StartGame();
-}, true);
